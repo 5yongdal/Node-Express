@@ -106,3 +106,26 @@ app.use(function(req, res) {
 ```javascript
 app.use(express.static(__dirname + '/public'));
 ```
+
+## 품질보증 
+### 페이지 테스트
+테스트 프레임워크 모카 
+```node
+npm install --save-dev mocha
+```
+--save가 아니라 --save-dev 옵션을 사용한 이유는 실무 환경이 아니라 개발할 때만 사용한다고 알리는 옵션.
+
+## 요청과 응답 객체 
+### URL의 각 부분 
+*[프로토콜]*
+프로토콜은 요청이 어떻게 전송될지 결정한다.
+
+*[호스트]*
+호스트는 서버를 가리킨다.
+
+*[포토]*
+*[경로]*
+*[쿼리스트링]*
+*[해시]*
+
+### HTTP 요청 규칙 
